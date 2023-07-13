@@ -1,7 +1,7 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "description": "",
+  "description": "Odin Project Restaurant Page",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
