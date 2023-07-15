@@ -46,8 +46,8 @@ body {
     min-height: 85vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    background-image: url("images/main-bg-1200x800.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./images/main-bg-1200x800.jpg");
+    
     background-size: cover;
   } 
 
@@ -111,11 +111,11 @@ body {
   }
 
   .align-left.slide-in {
-    transform: translateX(-90%) scale(0.7);
+    transform: translateX(-90%) scale(1);
   }
   
   .align-right.slide-in {
-    transform: translateX(90%) scale(0.7);
+    transform: translateX(90%) scale(1);
   }
 
   .slide-in.active-img {
@@ -127,5 +127,4 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
   }

@@ -34,7 +34,6 @@ const createMenuPage = () => {
 }
 
 function debounce(func, wait = 20, immediate = true) {
-  console.log('debounce');
     var timeout;
     return function() {
       var context = this, args = arguments;
@@ -50,7 +49,6 @@ function debounce(func, wait = 20, immediate = true) {
   };
 
 const slideIn = () => {
-  console.log('slideIn');
   const images = document.querySelectorAll('.slide-in');
   images.forEach(image => {
     const slideInAt = (window.scrollY + window.innerHeight) - image.height / 2;
