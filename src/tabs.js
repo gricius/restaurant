@@ -1,6 +1,6 @@
 import createMenuPage from "./menu"
 import createRestaurantHomePage from "./restaurant"
-import createContactPage from "./contacts"
+import createContactPage from "./contact"
 
 
 const createTabs = (tabs) => {
